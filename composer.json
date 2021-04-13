@@ -1,0 +1,28 @@
+{
+    "name": "soluzione-software/nova-collapsible-groups",
+    "description": "Makes resource groups collapsible in Laravel Nova",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "laravel/nova": "~3.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoluzioneSoftware\\NovaCollapsibleGroups\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoluzioneSoftware\\NovaCollapsibleGroups\\ServiceProvider"
+            ]
+        }
+    }
+}
